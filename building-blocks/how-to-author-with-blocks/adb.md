@@ -1,5 +1,5 @@
 # Tasks for OCI Service: ADB
-## cleanup.md
+## Delete your workshop resources
 **Markdown file location:**
 ```
 /common/building-blocks/tasks/adb/cleanup.md
@@ -64,6 +64,28 @@
 **Markdown Output &#8595;&#8595;:**
  
 [](include:adb-connect-with-sql-worksheet-non-admin.md)
+ 
+## Create a policy enabling ADB access to OCI GenAI
+**Markdown file location:**
+```
+/common/building-blocks/tasks/adb/create-genai-policy.md
+```
+
+**Add to your manifest.json:**
+```
+"include": {
+     "adb-create-genai-policy.md":"/common/building-blocks/tasks/adb/create-genai-policy.md"
+}
+```
+
+**Add to your workshop markdown:**
+```
+[]&lpar;include:adb-create-genai-policy.md)
+```
+
+**Markdown Output &#8595;&#8595;:**
+ 
+[](include:adb-create-genai-policy.md)
  
 ## Create Graph
 **Markdown file location:**
@@ -197,7 +219,7 @@
  
 [](include:adb-goto-graph-studio.md)
  
-## Go to Autonomous Database Service
+## goto-service-body.md
 **Markdown file location:**
 ```
 /common/building-blocks/tasks/adb/goto-service-body.md
@@ -307,6 +329,28 @@
  
 [](include:adb-load-public-db-actions.md)
  
+## Provision Autonomous Database - Developer
+**Markdown file location:**
+```
+/common/building-blocks/tasks/adb/provision-body-developer.md
+```
+
+**Add to your manifest.json:**
+```
+"include": {
+     "adb-provision-body-developer.md":"/common/building-blocks/tasks/adb/provision-body-developer.md"
+}
+```
+
+**Add to your workshop markdown:**
+```
+[]&lpar;include:adb-provision-body-developer.md)
+```
+
+**Markdown Output &#8595;&#8595;:**
+ 
+[](include:adb-provision-body-developer.md)
+ 
 ## Provision Autonomous Database
 **Markdown file location:**
 ```
@@ -328,6 +372,28 @@
 **Markdown Output &#8595;&#8595;:**
  
 [](include:adb-provision-body.md)
+ 
+## Provision an ADB instance for Data Sharing/Data Lake workshops
+**Markdown file location:**
+```
+/common/building-blocks/tasks/adb/provision-data-sharing-lake-task.md
+```
+
+**Add to your manifest.json:**
+```
+"include": {
+     "adb-provision-data-sharing-lake-task.md":"/common/building-blocks/tasks/adb/provision-data-sharing-lake-task.md"
+}
+```
+
+**Add to your workshop markdown:**
+```
+[]&lpar;include:adb-provision-data-sharing-lake-task.md)
+```
+
+**Markdown Output &#8595;&#8595;:**
+ 
+[](include:adb-provision-data-sharing-lake-task.md)
  
 ## Query JSON arrays
 **Markdown file location:**
